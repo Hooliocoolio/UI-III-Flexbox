@@ -164,7 +164,6 @@ body {
 header {
     padding: 20px 0px 20px 0px;
     margin: 20px 0px 10px 0px;
-
 }
 
 nav {
@@ -180,7 +179,6 @@ li {
     padding: 10px;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -190,21 +188,17 @@ a:hover {
 }
 
 h1 {
-
     letter-spacing: 1px;
     font-size: 25px;
 }
 
 .container {
     padding: 20px 0px 20px 0px;
-    /* width: 856px; */
 }
 
 .box {
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
-
 }
 
 .child-box {
@@ -212,9 +206,6 @@ h1 {
     border: 1px solid black;
     margin-top: 25px;
     width: 398px;
-    /* padding: 15px; */
-
-    /* height: 220px; */
 }
 
 button {
@@ -225,6 +216,5 @@ button {
 
 footer {
    text-align: center;
-   padding: 40px;
-   
+   padding: 40px;  
 }
