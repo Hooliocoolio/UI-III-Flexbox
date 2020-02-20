@@ -157,23 +157,39 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
  
+body {
+    max-width: 830px;
+    margin: auto;
+}
 
 header {
-  display: flex;
-  justify-content: center;
-  flex-direction: row; 
-  padding: 20px;
+    padding:  20px 0px 20px 0px;
+    margin: 20px 0px 10px 0px;
+
 }
 
 nav {
-   padding-top: 15px;
-   width: 600px;
-} 
+    display: flex;
+    justify-content: space-between;
+}
 
-.logo {
+li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    opacity: 1;
+}
+
+
+/* .logo {
 	width: 100px;
 	text-align: left;
-}
+} */
 
 .container1 {
 	display: flex;
@@ -185,7 +201,7 @@ nav {
 span {
 	align-content: space-around;
 	text-align: center;
-	width:400px;
+	width: 400px;
 }
 
 .demand{
@@ -193,15 +209,7 @@ span {
 	font-family: bangers, cursive;
 }
 
-a {
-  padding-right: 50px;
-  opacity: 0.4;
-  text-decoration-line: none;
-}
 
-a:hover {
-  opacity: 1;
-}
 
 button {
   width: 150px;
